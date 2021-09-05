@@ -1,14 +1,12 @@
 #include<iostream>
-#include<string.h>
 using namespace std;
 int main() {
    cout<<"Enter the message:\n";
    char msg[100];
    cin.getline(msg,100); //take the message as input
-   int i, j, length,choice,key;
+   int choice,key;
    cout << "Enter key: ";
    cin >> key; //take the key as input
-   length = strlen(msg);
 
    cout<<"Enter your choice \n1. Encryption \n2. Decryption \n";
    cin>>choice;
